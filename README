@@ -1,3 +1,16 @@
 README for html strainer
 
 Html Strainer is my attempt at creating a script to remove unwanted attributes and tags from legacy (or just foreign) html code.
+
+How to use it.
+==============
+
+Copy the html you want to clean into the input.html file. Then fire up a terminal and run the script by typing:
+'python html_strainer.py'
+
+The cleaned html will appear in output.html for you to do what you want with it.
+
+Notes
+=====
+1. It's currently only compatible with python 2.
+2. Future versions will allow you to specify input and output files via commandline arguments. I just didn't have the time or knowledge to write this into the first version.
